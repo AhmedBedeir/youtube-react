@@ -19,13 +19,12 @@ function Navbar() {
     >
       <Link
         to="/"
-        
         style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}
       >
         <img src={logo} alt="logo" height={45} />
-        <Typography sx={{ color: '#c00', paddingLeft: 1 }} variant="h5">
+        {/* <Typography sx={{ color: '#c00', paddingLeft: 1 }} variant="h5">
           BEDEIR
-        </Typography>
+        </Typography> */}
       </Link>
       <SearchBar />
     </Stack>
