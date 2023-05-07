@@ -13,7 +13,7 @@ import {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/youtube-react">
       <Totop />
       <Box sx={{ backgroundColor: '#000' }}>
         <Navbar />
